@@ -1,18 +1,41 @@
 {
+    "name": "pdd/pddsdk",
+    "version": "1.0.0",
     "require": {
-        "php": "^5.5|^7.0",
-        "ext-curl": "*",
-        "ext-json": "*"
+        "php": ">=7.1.0"
     },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://mirrors.aliyun.com/composer/"
+    "type": "library",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     },
     "autoload": {
         "psr-4": {
             "Com\\Pdd\\Pop\\Sdk\\": "src/"
         }
-    }
+    },
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "PHP-FIG",
+            "homepage": "http://www.php-fig.org/"
+        }
+    ],
+    "description": "Common interface for HTTP messages",
+    "homepage": "https://github.com/php-fig/http-message",
+    "keywords": [
+        "http",
+        "http-message",
+        "psr",
+        "psr-7",
+        "request",
+        "response"
+    ],
+    "support": {
+        "source": "https://github.com/php-fig/http-message/tree/master"
+    },
+    "time": "2016-08-06T14:39:51+00:00"
 }
